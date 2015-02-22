@@ -1,3 +1,7 @@
+##what the script does
+
+run_analysis.R combine the train and test data of the original dataset, select only the mean and std measurements, calculate the average of these measurements per actitivy per subject and write the result table into a text file output.txt.
+
 ##how to run
 
 put run_analysis.R in the top directory for the dataset. ie. along side with features.txt and activity_labels.txt but outside of test or train subdirectory.
